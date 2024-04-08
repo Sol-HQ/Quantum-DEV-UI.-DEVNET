@@ -223,7 +223,7 @@ export const mintArgsBuilder = (
   }
 
   if (guards.thirdPartySigner.__option === "Some") {
-    console.error("not supported. you need a backend");
+    console.error("not supported.");
   }
 
   if (guards.token2022Payment.__option === "Some") {
