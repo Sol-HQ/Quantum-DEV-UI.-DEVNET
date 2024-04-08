@@ -8,7 +8,7 @@ export const mintText = [
 ];
 
 //header image in the ui. replace with your own
-export const image = "https://arweave.net=png";
+export const image = "https://arweave.net/mjc6ojYhcdDP7faaDScLHVDOgjKdsmZke2k6wcTtK2Y?ext=png";
 
 //website title
 export const headerText = "Quantum Clip Solana";
