@@ -202,3 +202,4 @@ export const InitializeModal = ({ umi, candyMachine, candyGuard }: Props) => {
     </>
   );
 };
+
