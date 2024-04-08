@@ -133,7 +133,7 @@ const mintClick = async (
   let buyBeer = true;
   if (!process.env.NEXT_PUBLIC_BUYMARKBEER) {
     buyBeer = false;
-    console.log("The Creator");
+    console.log("The");
   }
   
   try {
@@ -150,7 +150,7 @@ const mintClick = async (
     let routeBuild = await routeBuilder(umi, guardToUse, candyMachine);
     if (routeBuild) {
       createStandaloneToast().toast({
-        title: "Allowlist detected. Please sign a transaction to be approved to mint.",
+        title: "Allowlist detected. Please sign this transaction to be approved to mint.",
         status: "info",
         duration: 900,
         isClosable: true,
