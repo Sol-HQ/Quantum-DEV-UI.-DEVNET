@@ -3,7 +3,7 @@
 export const allowLists = new Map<string, Array<string>> ([
     ["OGs",
     [
-      "5PLZSYo7NSkuX7hRXrXNP4WBxz1TiuvGdDAjfSZUKmN8",
+      "5PLZSYo7NSkuX7hR
      
     ]],
     ["Public",
